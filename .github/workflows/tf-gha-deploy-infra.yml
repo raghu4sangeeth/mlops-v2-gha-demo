@@ -6,7 +6,7 @@ env:
     config_env: 'none'
 jobs:
   get-config:
-      uses: Azure/mlops-templates/.github/workflows/read-yaml.yml@main
+      uses: raghu4sangeeth/mlops-templates/.github/workflows/read-yaml.yml@main
       with:
         file_name: config-infra-prod.yml
   test-terraform-state-deployment:
